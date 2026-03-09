@@ -8,8 +8,8 @@ Currently supported versions of **WasteRam**:
 
 | Version | Supported |
 |--------|-----------|
-| INDEV v2 | ✅ Yes |
-| indev builds (older) | ⚠️ Limited support |
+| INDEV v2 | Yes |
+| indev builds (older) | Limited support |
 
 Older builds may contain bugs or security issues and may not receive fixes.
 
