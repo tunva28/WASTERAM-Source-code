@@ -1,3 +1,5 @@
+Here is an updated Security Policy with INDEV v2 added and clearer wording for GitHub.
+
 # Security Policy
 
 ## Supported Versions
@@ -26,3 +28,23 @@ When reporting, please include:
 
 Example:
 
+
+Version: INDEV v2
+OS: Windows 10
+Problem: Command crashes program
+Steps:
+
+Run the game
+
+Enter command "XYZ"
+
+Program crashes
+
+
+---
+
+## Response Time
+
+We will try to review reports **as soon as possible**.
+
+Thank you for helping make **WasteRam safer and better.**
