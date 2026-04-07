@@ -1,5 +1,3 @@
-Here is an updated Security Policy with INDEV v2 added and clearer wording for GitHub.
-
 # Security Policy
 
 ## Supported Versions
