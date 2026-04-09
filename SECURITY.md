@@ -2,12 +2,13 @@
 
 ## Supported Versions
 
-Currently supported versions of **WasteRam**:
+Currently supported versions of **Wasteram Terminal Simulator™**:
 
-| Version | Supported |
-|--------|-----------|
-| INDEV v2 | Yes |
-| indev builds (older) | Limited support |
+| Version            | Supported       |
+| ------------------ | --------------- |
+| INDEV v3 (latest)  | Yes             |
+| INDEV v2           | Limited support |
+| Older indev builds | Not supported   |
 
 Older builds may contain bugs or security issues and may not receive fixes.
 
@@ -15,34 +16,63 @@ Older builds may contain bugs or security issues and may not receive fixes.
 
 ## Reporting a Vulnerability
 
-If you find a **security issue or vulnerability** in WasteRam, please report it by opening a **GitHub Issue**.
+If you discover a **security vulnerability**, please report it responsibly.
 
-When reporting, please include:
+### Preferred Method
 
-- A **clear description** of the problem
-- **Steps to reproduce** the issue
-- **Screenshots or logs** if possible
-- The **WasteRam version** you are using
+* Open a **GitHub Issue** in this repository
 
-Example:
+### Include the following information:
 
+* Clear description of the vulnerability
+* Steps to reproduce the issue
+* Expected vs actual behavior
+* Screenshots or logs (if applicable)
+* Version of the game
+* Operating system
 
-Version: INDEV v2
+### Example Report
+
+```
+Version: INDEV v3
 OS: Windows 10
-Problem: Command crashes program
-Steps:
+Issue: Command causes crash
 
-Run the game
+Steps to reproduce:
+1. Run the game
+2. Enter command "XYZ"
+3. Program crashes
+```
 
-Enter command "XYZ"
+---
 
-Program crashes
+## Scope
 
+This project is a local terminal game. Security concerns may include:
+
+* Crashes caused by malformed input
+* Unsafe file handling (save.json)
+* Unexpected behavior from command parsing
+
+There are **no online services or user data collection systems**.
 
 ---
 
 ## Response Time
 
-We will try to review reports **as soon as possible**.
+* Reports will be reviewed as soon as possible
+* Fixes will be released in future indev updates
 
-Thank you for helping make **WasteRam safer and better.**
+---
+
+## Responsible Use
+
+Do not exploit vulnerabilities for harmful purposes.
+
+This project is for learning and entertainment. Please report issues instead of abusing them.
+
+---
+
+## Credits
+
+Thanks to everyone who helps improve the security and stability of Wasteram Terminal Simulator™.
